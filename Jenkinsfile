@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/ali-th/list-files-alihammad.git'
+                git 'https://github.com/ali-th/20217025.git'
             }
         }
         stage('Execute Bash Script') {
